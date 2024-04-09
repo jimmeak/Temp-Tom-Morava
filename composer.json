@@ -1,0 +1,19 @@
+{
+    "name": "example/jabadabadu",
+    "version": "0.1.0",
+    "description": "Some basic code as and example for Tomas Morava",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mordor\\Web\\": "src/",
+            "Mordor\\Storage\\": "custom-vendor/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jimmy Found",
+            "email": "jimmeak.found@gmail.com"
+        }
+    ],
+    "require": {}
+}
